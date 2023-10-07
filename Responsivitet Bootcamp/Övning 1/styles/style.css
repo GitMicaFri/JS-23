@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.main-container {
+    background-color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+}
+
+.purple-header {
+  background-color: purple;
+  height: 8rem;
+  width: 98%;
+}
+
+.middle-section {
+    display: grid;
+   
+}
+
+.cerise-container {
+    display:flex;
+    flex-direction: column;
+    width: 98%
+    
+}
+
+.cerise-item {
+    background-color: rgb(167, 11, 89);
+    height: 4rem;
+} 
+
+.pink-item {
+    background-color: pink;
+    width:33%;
+}
