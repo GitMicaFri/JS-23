@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+}
+
+.container {
+    display:flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item {
+    margin-top: 165px;
+   
+   
+    
+}
+
+button {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: red;
+    color: red;
+}

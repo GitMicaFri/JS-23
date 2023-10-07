@@ -1,0 +1,87 @@
+*'
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* width:fit-content;
+    height: auto; */
+   /*  width:100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: 'Coming Soon', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Oldenburg', cursive;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../Lemurs.jpg);
+    background-size:cover;
+    background-position: center;
+    filter: sepia(0.9);
+    background-color:rgb(228, 219, 219);
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 40rem;
+    width: 25rem;
+    padding: 5rem;
+}
+
+img {
+    display: cover;
+    opacity: 0.4;
+}
+
+article {
+    height: 15rem;
+    width: 9rem;
+    display: flex;
+    flex-direction: column;
+    background-color:antiquewhite;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-style: italic;
+    font-size: 1.5;
+    letter-spacing: 1.5px;
+}
+
+.saying {
+    font-size: 1.6rem;
+    margin-top: 19rem;
+}
+
+.author {
+    font-size: 1.3rem;
+}
+
+.dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 16rem;
+}
+
+.dot {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.dot-1 {
+    background-color: grey;
+}
+
+
+
