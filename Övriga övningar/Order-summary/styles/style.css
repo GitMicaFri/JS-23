@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;  
+    display: flex;
+    justify-content: center;
+   margin-top: 10rem;
+}
+
+.main-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 45rem;
+    width: 25rem;
+    border-radius: 20px;
+}
+
+.header-container {
+    background-color: #412FFF;
+    display: flex;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+.header-image {
+    size:cover;
+   border-radius:30%;
+    margin-left: 4rem;
+}
+
+.order-summary-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2remrem;
+}
+
+.order-summary-paragraph {
+    color:rgba(0, 0, 0, 0.432);
+    letter-spacing: 0.2;
+    margin-bottom: 3.5rem;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #F7F7F7;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 10px;
+}
+
+.note-container {
+    display: flex;
+    justify-content:flex-start;
+    background-color: #E2E2E2;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.note-icon {
+    padding: 1rem;
+    color: #828282;
+}
+
+.annual-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    color:rgba(0, 0, 0, 0.486);
+}
+
+.change {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.proceed {
+    background-color: #412FFF;
+    color: white;
+    font-size: 1.2rem;
+    height: 4rem;
+    border-radius: 10px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.cancel {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin-top: 3rem;
+   
+    color:rgba(0, 0, 0, 0.432);
+}

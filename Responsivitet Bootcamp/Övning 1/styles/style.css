@@ -20,9 +20,9 @@ body {
 }
 
 .purple-header {
-  background-color: purple;
+  background-color: #480063;
   height: 8rem;
-  width: 98%;
+  margin: 0.5rem;
 }
 
 .middle-section {
@@ -30,19 +30,33 @@ body {
    
 }
 
-.cerise-container {
+.cerise-container, .cerise-container, .pink-container, .green-container, .white-container  {
     display:flex;
     flex-direction: column;
-    width: 98%
-    
+    width: 100%;
 }
 
 .cerise-item {
-    background-color: rgb(167, 11, 89);
+    background-color: #B2008A;
     height: 4rem;
+    margin: 0.5rem;
 } 
 
+.white-item {
+    background-color: white;
+     height: 8rem;
+    margin: 0.5rem;
+}
+
+
 .pink-item {
-    background-color: pink;
-    width:33%;
+    background-color: #FD96A9;
+    height: 4rem;
+    margin: 0.5rem;
+}
+
+.green-item {
+    background-color: #C1C99A;
+    height: 4rem;
+    margin: 0.5rem;
 }
